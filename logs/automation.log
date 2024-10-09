@@ -1,0 +1,18 @@
+2024-10-05 10:37:30,038 - *** Starting TC001_AccountRegistrationTest ***
+2024-10-05 10:37:30,111 - Clicked on MyAccount Link
+2024-10-05 10:37:31,170 - Clicked on Register Link
+2024-10-05 10:37:31,171 - Providing customer details... 
+2024-10-05 10:37:32,483 - Validating Expected message .. 
+2024-10-05 10:37:32,497 - *** Finished TC001_AccountRegistrationTest ***
+2024-10-05 10:45:13,147 - *** Starting TC001_AccountRegistrationTest ***
+2024-10-05 10:45:13,215 - Clicked on MyAccount Link
+2024-10-05 10:45:13,892 - Clicked on Register Link
+2024-10-05 10:45:13,893 - Providing customer details... 
+2024-10-05 10:45:15,204 - Validating Expected message .. 
+2024-10-05 10:45:15,206 - *** Finished TC001_AccountRegistrationTest ***
+2024-10-05 10:46:19,409 - *** Starting TC001_AccountRegistrationTest ***
+2024-10-05 10:46:19,487 - Clicked on MyAccount Link
+2024-10-05 10:46:21,358 - Clicked on Register Link
+2024-10-05 10:46:21,360 - Providing customer details... 
+2024-10-05 10:46:22,628 - Validating Expected message .. 
+2024-10-05 10:46:22,628 - Test failed... 
