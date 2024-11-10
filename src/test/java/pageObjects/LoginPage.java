@@ -21,20 +21,45 @@ public class LoginPage extends Basepage{
 	@FindBy(xpath = "//input[@value='Login']")
 	WebElement btnLogin;
 	
+	@FindBy(xpath = "//div[@class='form-group']//a[normalize-space()='Forgotten Password']")
+	WebElement lnkForgotPassword;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement alertCheck;
+	
+	@FindBy(xpath="//h2[normalize-space()='Returning Customer']")
+	WebElement txtReturningCustomer;
+	
 	public void setEmail(String email)
 	{
 		txtEmail.sendKeys(email);
 	}
-	
 	public void setPassword(String pswd)
 	{
 		txtPassword.sendKeys(pswd);
 	}
-	
 	public void clickLogin()
 	{
 		btnLogin.click();
 	}
-	
+	public void clickForgotPassword()
+	{
+		lnkForgotPassword.click();
+	}
+	public boolean isAlertVisible()
+	{
+		try
+		{
+			return (alertCheck.isDisplayed());
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+	}
+	public boolean isLoginPageExist()
+	{
+		return txtReturningCustomer.isDisplayed();
+	}
 	
 }

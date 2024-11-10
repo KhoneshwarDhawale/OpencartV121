@@ -14,9 +14,33 @@
   	<parameter name="browser" value="edge"/>
   	
     <classes>
+    
       <class name="testCases.TC001_AccountRegistrationTest"/>
       <class name="testCases.TC002_LoginTest"/>
-      <!-- <class name="testCases.TC003_LoginDDT"></class> -->
+      <class name="testCases.TC003_LoginDDT"/>
+      <class name="testCases.TC004_LogoutTest"/>
+      <class name="testCases.TC005_ForgotPassword"/>
+      <class name="testCases.TC006_SearchFunctionTest"/> 
+      <class name="testCases.TC007_ProductCompareTest"/>
+      <class name="testCases.TC008_ProductDisplayDDT"/>
+      <class name="testCases.TC009_AddToCartTest"/>
+      <class name="testCases.TC010_WIshListTest"/>
+      <class name="testCases.TC011_HomePageTest"/>
+      <class name="testCases.TC012_MyAccountfunctionalityTest"/>
+      <class name="testCases.TC013_MyAccountInfoTest"/>
+      <class name="testCases.TC014_ChangePasswordTest"/>
+      <class name="testCases.TC015_AddressBookFunctionalityTest"/>
+      <class name="testCases.TC016_OrderHistoryTest"/>
+      <class name="testCases.TC017_DownloadsTest"/>
+      <class name="testCases.TC018_RewardPointsTest"/>
+	  <class name="testCases.TC019_RequestReturnTest"/>
+	  <class name="testCases.TC020_AffilateFunctionalityTest"/>
+	  <class name="testCases.TC021_NewsletterFunctionalityTest"/>
+	  <class name="testCases.TC022_ContactusFunctionalityTest"/>
+	  <class name="testCases.TC023_GiftCertificateFunctionalityTest"/>
+	  
+	  <class name="testCases.TC024_SpecialOffersFunctionalityTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

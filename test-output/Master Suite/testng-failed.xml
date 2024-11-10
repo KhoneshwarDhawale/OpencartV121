@@ -8,6 +8,20 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
     <classes>
+      <class name="testCases.TC014_ChangePasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_ChangePassword"/>
+        </methods>
+      </class> <!-- testCases.TC014_ChangePasswordTest -->
+      <class name="testCases.TC013_MyAccountInfoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_MyAccountInformation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC013_MyAccountInfoTest -->
       <class name="testCases.TC002_LoginTest">
         <methods>
           <include name="tearDown"/>
@@ -15,6 +29,41 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC020_AffilateFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_Affilate"/>
+        </methods>
+      </class> <!-- testCases.TC020_AffilateFunctionalityTest -->
+      <class name="testCases.TC015_AddressBookFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_AddressBook"/>
+        </methods>
+      </class> <!-- testCases.TC015_AddressBookFunctionalityTest -->
+      <class name="testCases.TC010_WIshListTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_WishList"/>
+        </methods>
+      </class> <!-- testCases.TC010_WIshListTest -->
+      <class name="testCases.TC004_LogoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verfiy_logout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC004_LogoutTest -->
+      <class name="testCases.TC003_LoginDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_loginDDT" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC003_LoginDDT -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
